@@ -67,7 +67,21 @@ a {
 
 .hero_text {
   flex: 1;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0rem 4rem;
+}
+
+.hero_text > h1 {
+    font-size: 3.5rem;
+}
+
+
+.hero_text > p {
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 .hero_image {
@@ -77,3 +91,12 @@ a {
 .hero_image__img {
     width: 100%;
 }
+
+.hero_text_button {
+  font-size: 2.5rem;
+  padding: 2rem;
+  width: 70%;
+  font-weight: 400;
+  color: #DFCECE;
+}
+
