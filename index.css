@@ -58,3 +58,22 @@ a {
     height: 300px;
     background-color: #A4FE55;
 } */
+
+.hero {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.hero_text {
+  flex: 1;
+  background-color: blue;
+}
+
+.hero_image {
+    flex: 1;
+}
+
+.hero_image__img {
+    width: 100%;
+}
